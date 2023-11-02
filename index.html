@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="BharatIntern/style.css">
+    </head>
+<body>
+    <header>
+
+        <!-- Netflix logo and navigation menu -->
+
+            <img src="Images/logo.png" alt="Netflix Logo" class="logo">
+            <!-- attributes for logo -->
+
+        <nav class="nav">
+            <ul>
+                <li><a href="#"><h3>Home</h3></a></li>
+                <li><a href="#"><h3>TV Shows</h3></a></li>
+                <li><a href="#"><h3>Movies</h3></a></li>
+                <li><a href="#"><h3>My List</h3></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero section with background image -->
+        <section class="hero" style="background-image: url(Images/background.jpg);">
+            <div class="hero-content">
+                <h1>Welcome to Netflix</h1>
+                <p>Watch unlimited TV shows and movies.</p>
+                <button id="signup-button">Sign Up</button>
+            </div>
+        </section>
+
+        <!-- Movie/TV show categories -->
+        <section class="categories">
+            <h2>Browse by Category</h2>
+
+            <!-- Add category cards here -->
+        </section>
+    </main>
+
+    <footer>
+        <!-- Footer content -->
+            <div class="footer-content">
+
+                    <img src="Images/R.png" alt="Company Logo" class="footer-logo">
+
+                <div class="footer-links">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                &copy; 2023 Your Company Name. All rights reserved.
+            </div>
+
+    </footer>
+
+    <script src="script.js">
+        // script.js
+document.addEventListener("DOMContentLoaded", function () {
+    const signupButton = document.getElementById("signup-button");
+
+    signupButton.addEventListener("click", function () {
+        // Implement your signup logic here
+        alert("Sign Up clicked. Implement your logic here.");
+    });
+});
+
+    </script>
+</body>
+</html>
+

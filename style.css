@@ -1,0 +1,45 @@
+* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-image: url(images/background.jpg) ;
+    background-blend-mode: lighten;
+    background-blend-mode: luminosity;
+    background-color: #35e4cc;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+.logo{
+    border-radius: 25%;
+    filter: blur(0px);
+    filter: opacity(100%);
+
+}
+
+.nav{
+    font-weight: bolder;
+    font-palette: rgb(102, 255, 0);
+    color: white;
+}
+
+h3{
+    font-style: bold;
+    color: red;
+}
+
+.footer-links{
+    li
+}
+
+.footer-logo{
+        height: 60px;       
+         width: 150px;
+}
